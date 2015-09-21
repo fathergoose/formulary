@@ -20,3 +20,7 @@ admin.site.register(ProductType)
 from .models import IngredientType
 
 admin.site.register(IngredientType)
+
+from .models import Recipe
+
+admin.site.register(Recipe)
